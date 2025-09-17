@@ -91,9 +91,5 @@
                                        &kp LEFT_ALT  &kp LEFT_GUI  &new_behavior_hold LEFT_SHIFT SPACE    &new_behavior_hold RIGHT_SHIFT SPACE  &trans    &kp RALT
             >;
         };
-
-        extra_2 { status = "reserved"; };
-
-        extra_3 { status = "reserved"; };
     };
 };
