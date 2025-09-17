@@ -20,7 +20,29 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        left {
+            bindings = <&kp LEFT>;
+            key-positions = <12 18>;
+        };
+
+        down {
+            bindings = <&kp DOWN_ARROW>;
+            key-positions = <12 19>;
+        };
+
+        up {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <12 20>;
+        };
+
+        right {
+            bindings = <&kp RIGHT_ARROW>;
+            key-positions = <12 21>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
