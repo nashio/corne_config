@@ -41,6 +41,11 @@
             bindings = <&kp RIGHT_ARROW>;
             key-positions = <12 21>;
         };
+
+        wordbackspace {
+            bindings = <&kp LA(BACKSPACE)>;
+            key-positions = <36 11>;
+        };
     };
 
     keymap {
