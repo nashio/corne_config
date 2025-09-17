@@ -13,9 +13,11 @@
             compatible = "zmk,behavior-hold-tap";
             label = "NEW_BEHAVIOR_HOLD";
             #binding-cells = <2>;
-            tapping-term-ms = <5>;
+            tapping-term-ms = <10>;
             hold-while-undecided;
             bindings = <&mt>, <&kp>;
+
+            flavor = "balanced";
         };
     };
 
@@ -43,7 +45,7 @@
         };
 
         wordbackspace {
-            bindings = <&kp LA(BACKSPACE)>;
+            bindings = <&kp LG(BACKSPACE)>;
             key-positions = <36 11>;
         };
     };
