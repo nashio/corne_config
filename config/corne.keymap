@@ -47,14 +47,8 @@
         };
 
         wordbackspace {
-            bindings = <&kp LA(DELETE)>;
+            bindings = <&kp LA(BACKSPACE)>;
             key-positions = <36 11>;
-            layers = <0>;
-        };
-
-        removeword {
-            bindings = <&kp LA(DELETE)>;
-            key-positions = <11 0>;
             layers = <0>;
         };
     };
