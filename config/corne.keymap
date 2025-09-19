@@ -47,13 +47,13 @@
         };
 
         wordbackspace {
-            bindings = <&kp ALT_ERASE>;
+            bindings = <&kp LA(DELETE)>;
             key-positions = <36 11>;
             layers = <0>;
         };
 
         deleteword {
-            bindings = <&kp LC(BACKSPACE)>;
+            bindings = <&kp LA(DEL)>;
             key-positions = <11 24>;
         };
     };
