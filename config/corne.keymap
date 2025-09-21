@@ -96,10 +96,10 @@
         Raise {
             display-name = "Raise";
             bindings = <
-&kp TAB    &kp EXCLAMATION  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
-&none      &none            &none   &none     &none     &none        &kp LEFT   &kp DOWN       &kp UP        &kp RIGHT             &none                  &none
-&kp LSHFT  &none            &none   &none     &none     &none        &none      &none          &none         &none                 &none                  &none
-                                    &none     &none     &none        &none      &none          &none
+&kp LA(LG(I))  &kp EXCLAMATION  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
+&none          &none            &none   &none     &none     &none        &kp LEFT   &kp DOWN       &kp UP        &kp RIGHT             &none                  &none
+&kp LSHFT      &none            &none   &none     &none     &none        &none      &none          &none         &none                 &none                  &none
+                                        &none     &none     &none        &none      &none          &none
             >;
         };
 
