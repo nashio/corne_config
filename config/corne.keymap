@@ -85,7 +85,7 @@
             display-name = "Lower";
             bindings = <
 &kp F1  &kp F2  &kp F3  &kp F10  &kp F11               &kp F12                 &kp UNDERSCORE  &kp PLUS   &none  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LA(DELETE)
-&none   &none   &none   &none    &none                 &none                   &kp MINUS       &kp EQUAL  &none  &none           &none            &none
+&none   &none   &none   &none    &none                 &kp LC(B)               &kp MINUS       &kp EQUAL  &none  &none           &none            &none
 &none   &none   &none   &none    &kp LG(LS(NUMBER_4))  &kp LG(LS(NUMBER_3))    &none           &none      &none  &none           &none            &none
                         &none    &none                 &none                   &none           &none      &none
             >;
@@ -94,10 +94,10 @@
         Raise {
             display-name = "Raise";
             bindings = <
-&kp GRAVE          &kp EXCLAMATION  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
-&none              &none            &none   &none     &none     &none        &kp LEFT   &kp DOWN       &kp UP        &kp RIGHT             &none                  &none
-&kp LG(LA(LS(I)))  &none            &none   &none     &none     &none        &none      &none          &none         &none                 &none                  &none
-                                            &none     &none     &none        &none      &none          &none
+&kp GRAVE      &kp EXCLAMATION  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
+&none          &none            &none   &none     &none     &none        &kp LEFT   &kp DOWN       &kp UP        &kp RIGHT             &none                  &none
+&kp LG(LA(I))  &none            &none   &none     &none     &none        &none      &none          &none         &none                 &none                  &none
+                                        &none     &none     &none        &none      &none          &none
             >;
         };
 
