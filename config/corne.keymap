@@ -68,7 +68,7 @@
 
             display-name = "Base";
             bindings = <
-&lt 4 TAB         &kp Q  &kp W  &kp E         &kp R           &kp T                         &kp Y                       &kp U            &kp I      &kp O    &kp P     &kp BSPC
+&lt 2 TAB         &kp Q  &kp W  &kp E         &kp R           &kp T                         &kp Y                       &kp U            &kp I      &kp O    &kp P     &kp BSPC
 &mt LCTRL ESCAPE  &kp A  &kp S  &kp D         &kp F           &kp G                         &kp H                       &kp J            &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LSHFT         &kp Z  &kp X  &kp C         &kp V           &kp B                         &kp N                       &kp M            &kp COMMA  &kp DOT  &kp FSLH  &kp ENTER
                                 &kp LEFT_GUI  &kp LEFT_SHIFT  &new_behavior_hold 1 SPACE    &new_behavior_hold 2 SPACE  &kp RIGHT_SHIFT  &mo 3
@@ -84,18 +84,18 @@
 
             display-name = "Lower";
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F10  &kp F11               &kp F12                 &kp UNDERSCORE  &kp PLUS   &none  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LA(DELETE)
-&none   &none   &none   &none    &none                 &kp LC(B)               &kp MINUS       &kp EQUAL  &none  &none           &none            &none
-&none   &none   &none   &none    &kp LG(LS(NUMBER_4))  &kp LG(LS(NUMBER_3))    &none           &none      &none  &none           &none            &none
-                        &none    &none                 &none                   &none           &none      &none
+&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4          &kp N5                  &kp UNDERSCORE  &kp PLUS   &kp PIPE              &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LA(DELETE)
+&none      &kp NUMBER_6  &kp N7        &kp N8        &kp N9                &kp N0                  &kp MINUS       &kp EQUAL  &kp NON_US_BACKSLASH  &kp LEFT_BRACE        &kp RIGHT_BRACE        &none
+&none      &none         &none         &kp LC(B)     &kp LG(LS(NUMBER_4))  &kp LG(LS(NUMBER_3))    &none           &none      &none                 &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none
+                                       &none         &none                 &none                   &none           &none      &none
             >;
         };
 
         Raise {
             display-name = "Raise";
             bindings = <
-&kp GRAVE      &kp EXCLAMATION  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
-&none          &none            &none   &none     &none     &none        &kp LEFT   &kp DOWN       &kp UP        &kp RIGHT             &none                  &none
+&kp TILDE      &kp EXCLAMATION  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
+&kp F1         &kp F2           &kp F3  &kp F10   &kp F11   &kp F12      &kp LEFT   &kp DOWN       &kp UP        &kp RIGHT             &none                  &none
 &kp LG(LA(I))  &none            &none   &none     &none     &none        &none      &none          &none         &none                 &none                  &none
                                         &none     &none     &none        &none      &none          &none
             >;
@@ -110,19 +110,10 @@
 
             display-name = "symbols";
             bindings = <
-&kp TILDE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &none  &none  &none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LA(DELETE)
-&none      &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &none  &none  &none  &none             &none              &none
-&none      &none         &none         &none         &none         &none           &none  &none  &none  &none             &none              &none
-                                       &none         &none         &none           &none  &none  &none
-            >;
-        };
-
-        layer_4 {
-            bindings = <
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
-&trans  &trans        &trans        &trans        &trans        &trans          &trans        &trans        &trans        &trans        &trans        &trans
-&trans  &trans        &trans        &trans        &trans        &trans          &trans        &trans        &trans        &trans        &trans        &trans
-                                    &trans        &trans        &trans          &trans        &trans        &trans
+&none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp N7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp LA(DELETE)
+&none  &none         &none         &none         &none         &none           &none         &none   &none         &none         &none         &none
+&none  &none         &none         &none         &none         &none           &none         &none   &none         &none         &none         &none
+                                   &none         &none         &none           &none         &none   &none
             >;
         };
     };
